@@ -1,7 +1,7 @@
 $body-dark: #1c1d31; // body background
-$dark-bg: #22223a; // hero shade
-$dark-light-bg: #282945; // pills bg shade
-$dark-light: #313355; // tile light top share
+$dark-bg: #1e2026; // hero shade
+$dark-light-bg: #1e2026; // pills bg shade
+$dark-light: #1e2026; // tile light top share
 $labels-dark: #8a8dba; // header nav, labels
 $dark-stakes-banned-background: #3e314c;
 
@@ -45,7 +45,7 @@ $dark-stakes-banned-background: #3e314c;
 		}
 	}
 	.navbar-brand .navbar-logo {
-		filter: brightness(0) invert(1);
+		// filter: brightness(0) invert(1);
 	}
 	.navbar.navbar-primary .navbar-nav .nav-link {
 		color: $labels-dark;
@@ -98,18 +98,20 @@ $dark-stakes-banned-background: #3e314c;
 
 	.layout-container .dashboard-banner-container {
 		background-image: none;
-		background-color: $dark-bg !important;
+		// background-color: $dark-bg !important;
 	}
 	.dashboard-banner-network-plain-container,
 	.dashboard-banner-network-plain-container::after {
-		background-color: $dark-light-bg;
+		 background-color: $dark-bg;
 	}
+	
+
 	.dashboard-banner-network-stats-label,
 	.dashboard-banner-chart-legend .dashboard-banner-chart-legend-label {
 		color: $labels-dark;
 	}
 	.dashboard-banner-network-stats-item::before {
-		background-color: $dark-secondary;
+		background-color: $dark-primary;
 	}
 	.dashboard-banner-chart-legend .dashboard-banner-chart-legend-item {
 		&.price-per-day {
@@ -117,7 +119,7 @@ $dark-stakes-banned-background: #3e314c;
 			  background-color: $dark-primary;
 			}
 		  }
-	  
+	   
 		  &.gas-price-oracle {
 			&::before {
 			  background-color: $dark-primary;
@@ -143,7 +145,11 @@ $dark-stakes-banned-background: #3e314c;
 	}
 
 	.card {
-		background-color: $dark-light-bg;
+		background-image: linear-gradient(
+	    to bottom,
+	    $dashboard-banner-gradient-start,
+	    $dashboard-banner-gradient-end
+	  );
 		box-shadow: 0 0 30px 0 rgba(23, 24, 41, 0.5);
 	}
 
@@ -167,7 +173,7 @@ $dark-stakes-banned-background: #3e314c;
 		}
 		&.active {
 			background-color: $dark-primary-alternate;
-			color: #fff;
+			color: #000;
 		}
 	}
 
@@ -257,7 +263,7 @@ $dark-stakes-banned-background: #3e314c;
 		&:hover {
 			border-color: $dark-primary;
 			background-color: $dark-primary;
-			color: #fff;
+			color: #000;
 		}
 	}
 

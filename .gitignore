@@ -1,4 +1,5 @@
 # App artifacts
+.env
 /_build
 /apps/*/cover
 /apps/*/logs

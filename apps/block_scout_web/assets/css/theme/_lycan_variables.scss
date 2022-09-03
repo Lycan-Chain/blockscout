@@ -1,0 +1,92 @@
+// general
+$primary: #2e3139;
+$secondary: #ecd867;
+$tertiary: #4ad7a7;
+$additional-font: #d6d133;
+$buttoncolor:#282a32;
+
+// footer
+$footer-background-color: $primary;
+$footer-title-color: #fff;
+$footer-text-color: #d6d133;
+$footer-item-disc-color: $secondary;
+.footer-logo { filter: brightness(0) invert(1); }
+.footer-social-icons .footer-social-icon { color: $secondary; }
+
+// dashboard
+$dashboard-line-color-price: $tertiary; // price left border
+
+$dashboard-banner-chart-legend-label-color: #d6d133;
+$dashboard-stats-item-label-color: #d6d133;
+$dashboard-banner-chart-legend-value-color: #fff; // chart labels
+$dashboard-stats-item-value-color: #fff; // stat values
+
+$dashboard-stats-item-border-color: $secondary; // stat border
+
+$dashboard-banner-gradient-start: $primary; // gradient begin
+
+$dashboard-banner-gradient-end: #000000; // gradient end
+
+$dashboard-banner-network-plain-container-background-color: #282a32; // stats bg
+
+
+// navigation
+.navbar { 
+	background: $dashboard-banner-gradient-end;
+	box-shadow: 0px 0px 30px 0px rgba(21, 53, 80, 0.12); 
+	&.navbar-primary {
+		.form-control{
+			background: transparent;
+			border-color:$secondary;
+			color: $secondary;
+		}
+		.navbar-brand {
+			img {
+				width:auto;
+				max-height:26px;
+			}
+		}
+	}
+} // header shadow
+
+// buttons
+$btn-line-bg: $buttoncolor; // button bg
+$btn-line-color: #fff; // button border and font color && hover bg color
+$btn-copy-color: #fff; // btn copy
+$btn-qr-color: $secondary; // btn qr-code
+$btn-address-card-icon-color: $secondary; // btn address color
+$btn-contract-color: $secondary;
+
+//links & tile
+$tile-body-a-color: #000000;
+$tile-type-block-color: #000000;
+$tile-type-progress-bar-color: #000000;
+a.tile-title { color:#000000  !important; }
+
+// card
+$card-background-1: $secondary;
+$card-tab-active: $secondary;
+
+.layout-container {
+	.dashboard-banner-container {
+	  background-image: linear-gradient(
+	    to bottom,
+	    $dashboard-banner-gradient-start,
+	    $dashboard-banner-gradient-end
+	  );
+	}
+}
+
+// Dark theme
+$dark-primary: #ecd867;
+$dark-secondary: #4ad7a7;
+$dark-primary-alternate: #ecd867;
+
+.dark-theme-applied {
+  .dashboard-banner-chart-legend .dashboard-banner-chart-legend-item:nth-child(1)::before {
+    background-color: $dark-primary !important;
+  }
+  .dashboard-banner-chart-legend .dashboard-banner-chart-legend-item:nth-child(2)::before {
+    background-color: $dark-secondary !important;
+  }
+}

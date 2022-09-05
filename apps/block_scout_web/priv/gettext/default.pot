@@ -61,7 +61,7 @@ msgstr ""
 #, elixir-format
 #: lib/block_scout_web/templates/layout/_default_title.html.eex:2
 msgid "%{subnetwork} Explorer - BlockScout"
-msgstr ""
+msgstr "%{subnetwork} Explorer"
 
 #, elixir-format
 #: lib/block_scout_web/views/transaction_view.ex:349
@@ -118,7 +118,7 @@ msgstr ""
 #, elixir-format
 #: lib/block_scout_web/templates/api_docs/_metatags.html.eex:2
 msgid "API for the %{subnetwork} - BlockScout"
-msgstr ""
+msgstr "API for the %{subnetwork}"
 
 #, elixir-format
 #: lib/block_scout_web/templates/layout/_topnav.html.eex:92
@@ -306,7 +306,7 @@ msgstr ""
 #, elixir-format
 #: lib/block_scout_web/templates/chain/_metatags.html.eex:4
 msgid "BlockScout provides analytics data, API, and Smart Contract tools for the %{subnetwork}"
-msgstr ""
+msgstr "Lycanchain is a smart, scalable and a secure blockchain. An EVM based blockchain with Web3.0 and Ethereum tooling compatibility gives it ready large developer community and high scalability."
 
 #, elixir-format
 #: lib/block_scout_web/templates/chain/show.html.eex:153
@@ -329,7 +329,7 @@ msgstr ""
 #, elixir-format
 #: lib/block_scout_web/templates/layout/_footer.html.eex:22
 msgid "Blockscout is a tool for inspecting and analyzing EVM based blockchains. Blockchain explorer for Ethereum Networks."
-msgstr ""
+msgstr "Lycanchain is a smart, scalable and a secure blockchain. An EVM based blockchain with Web3.0 and Ethereum tooling compatibility gives it ready large developer community and high scalability."
 
 #, elixir-format
 #: lib/block_scout_web/templates/block/_tile.html.eex:64
@@ -371,7 +371,7 @@ msgstr ""
 #, elixir-format
 #: lib/block_scout_web/templates/layout/_footer.html.eex:41
 msgid "Chat (#blockscout)"
-msgstr ""
+msgstr "Chat (#lycanchain)"
 
 #, elixir-format
 #: lib/block_scout_web/views/block_view.ex:63
@@ -524,7 +524,7 @@ msgstr ""
 #: lib/block_scout_web/templates/address_contract/index.html.eex:25
 #: lib/block_scout_web/templates/smart_contract/_functions.html.eex:11
 msgid "Contract is not verified. However, we found a verified contract with the same bytecode in Blockscout DB"
-msgstr ""
+msgstr "Contract is not verified. However, we found a verified contract with the same bytecode in DB"
 
 #, elixir-format
 #: lib/block_scout_web/templates/address_contract/index.html.eex:57
@@ -1946,7 +1946,7 @@ msgstr ""
 #, elixir-format
 #: lib/block_scout_web/templates/api_docs/index.html.eex:6
 msgid "This API is provided for developers transitioning their applications from Etherscan to BlockScout. It supports GET and POST requests."
-msgstr ""
+msgstr "This API is provided for developers transitioning their applications from Etherscan to Lycanchain Explorer. It supports GET and POST requests."
 
 #, elixir-format
 #: lib/block_scout_web/templates/api_docs/eth_rpc.html.eex:7
@@ -1971,7 +1971,7 @@ msgstr ""
 #, elixir-format
 #: lib/block_scout_web/templates/api_docs/eth_rpc.html.eex:10
 msgid "This is useful to allow sending requests to blockscout without having to change anything about the request."
-msgstr ""
+msgstr "This is useful to allow sending requests to explorer without having to change anything about the request."
 
 #, elixir-format
 #: lib/block_scout_web/templates/transaction/overview.html.eex:58

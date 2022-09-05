@@ -22,7 +22,7 @@ config :explorer, Explorer.Repo,
   database: "explorer_dev",
   hostname: "localhost",
   username: "postgres",
-  password: "bscoutpass",
+  password: "lycan721",
   pool_size: 200,
   timeout: 800_000,
   queue_target: 50000

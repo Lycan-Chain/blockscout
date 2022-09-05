@@ -1,4 +1,5 @@
 # App artifacts
+config/dev.exs
 .env
 /_build
 /apps/*/cover
